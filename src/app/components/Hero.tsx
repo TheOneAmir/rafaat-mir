@@ -65,7 +65,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <a
-              href="https://github.com"
+              href="https://github.com/TheOneAmir"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-white text-slate-900 rounded-lg hover:bg-slate-100 transition-colors duration-300 text-sm"
@@ -74,7 +74,7 @@ export function Hero() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rafaat-mir-174ba282/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 border-2 border-white text-white rounded-lg hover:bg-white hover:text-slate-900 transition-colors duration-300 text-sm"

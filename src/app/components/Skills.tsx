@@ -3,23 +3,23 @@ import { motion } from "motion/react";
 const skillCategories = [
   {
     category: "Languages",
-    skills: ["C#", "Java", "Python", "JavaScript", "TypeScript", "MySQL", "YAML"]
+    skills: ["C#", "Java", "Python", "JavaScript", "TypeScript", "SQL (MySQL)"]
   },
   {
-    category: "Frontend",
-    skills: ["React", "AngularJS", "HTML/CSS", "UI/UX Design"]
+    category: "Frameworks & Libraries",
+    skills: ["React", "Angular", "TanStack Start", ".NET / ASP.NET", "YAML Pipelines"]
   },
   {
-    category: "Backend & Cloud",
-    skills: ["Azure", "Kubernetes", "Redis", "DevOps", "API Design"]
+    category: "Cloud & Infrastructure",
+    skills: ["Azure", "Supabase", "Cloudflare Workers", "Kubernetes", "Redis", "ElasticSearch"]
   },
   {
-    category: "AI & Emerging Tech",
-    skills: ["Azure OpenAI", "Prompt Engineering", "AI Agents", "Quant Analysis"]
+    category: "AI & LLMs",
+    skills: ["Prompt Engineering", "Azure OpenAI", "Claude", "Gemini", "Streaming LLM", "AI Agents"]
   },
   {
     category: "Tools & Practices",
-    skills: ["Git", "CI/CD", "Agile/Scrum", "Code Review", "Security Best Practices"]
+    skills: ["Git", "CI/CD", "UI/UX Design", "REST APIs", "Agile/Scrum", "Security (OWASP)"]
   }
 ];
 

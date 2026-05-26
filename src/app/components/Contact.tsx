@@ -61,12 +61,12 @@ export function Contact() {
                 <div>
                   <p className="text-xs text-slate-500">LinkedIn</p>
                   <a
-                    href="https://linkedin.com/in/yourprofile"
+                    href="https://www.linkedin.com/in/rafaat-mir-174ba282/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-slate-900 hover:text-slate-600 transition-colors"
                   >
-                    linkedin.com/in/yourprofile
+                    linkedin.com/in/rafaat-mir
                   </a>
                 </div>
               </div>
@@ -78,12 +78,12 @@ export function Contact() {
                 <div>
                   <p className="text-xs text-slate-500">GitHub</p>
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/TheOneAmir"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-slate-900 hover:text-slate-600 transition-colors"
                   >
-                    github.com/yourusername
+                    github.com/TheOneAmir
                   </a>
                 </div>
               </div>
@@ -91,9 +91,6 @@ export function Contact() {
           </div>
 
           <div className="mt-8 pt-6 border-t border-slate-300 text-center">
-            <p className="text-sm text-slate-600 mb-4">
-              Open to full-time opportunities, consulting, and interesting projects
-            </p>
             <a
               href="mailto:mir.rafaat@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-lg hover:bg-slate-700 transition-colors duration-300 text-sm"

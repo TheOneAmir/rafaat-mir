@@ -1,30 +1,60 @@
 import { motion } from "motion/react";
-import { ExternalLink, Github, TrendingUp, Headphones, Gamepad2 } from "lucide-react";
+import { ExternalLink, Github, TrendingUp, Headphones, Gamepad2, Bot, Layers } from "lucide-react";
 
 const projects = [
   {
+    title: "AgentVim",
+    type: "Independent Project",
+    period: "Jul 2025 – Present",
+    description: "An AI-powered coding interview simulator with real-time LLM feedback, multi-language in-browser editor, and persistent interview history.",
+    highlights: [
+      "Real-time LLM feedback during coding sessions",
+      "Multi-language in-browser code editor",
+      "Persistent interview history via Supabase Edge Functions with streaming LLM responses"
+    ],
+    icon: Bot,
+    technologies: ["React", "TypeScript", "Supabase", "LLM APIs", "Streaming"],
+    status: "Active",
+    link: "https://agentvim.com"
+  },
+  {
+    title: "Tenfold",
+    type: "Independent Project",
+    period: "Jul 2025 – Present",
+    description: "A narrative roguelike web game built on TanStack Start (React 19, Vite 7) with SSR on Cloudflare Workers.",
+    highlights: [
+      "Full-stack game with SSR on Cloudflare Workers",
+      "Tuned game balance via automated Monte Carlo simulations over thousands of synthetic playthroughs",
+      "Built with TanStack Start (React 19, Vite 7)"
+    ],
+    icon: Layers,
+    technologies: ["TanStack Start", "React 19", "Cloudflare Workers", "TypeScript", "Vite 7"],
+    status: "Active",
+    link: "https://tenfoldcards.com"
+  },
+  {
     title: "Investigate",
     type: "Personal Project",
-    period: "Jun 2025 - Present",
-    description: "Creating a screener to find investments, and exploring design for an AI Agent which evaluates market sentiment.",
+    period: "Jun 2025 – Present",
+    description: "An AI-powered investment screener with market sentiment analysis using LLM agents.",
     highlights: [
-      "Researching market trends, assessing sentiment, and investing with AI assistance",
+      "Researching market trends and assessing sentiment with LLM agents",
       "Outperforming S&P 500 over managed accounts",
       "Placed top 50 in Kraken Turkey Trading 2025"
     ],
     icon: TrendingUp,
-    technologies: ["AI", "Python", "Market Analysis", "Quant"],
+    technologies: ["AI", "Python", "LLM Agents", "Market Analysis", "Quant"],
     status: "Active"
   },
   {
     title: "Telus VR KPI Visualization",
     type: "Capstone Project",
     period: "2015",
-    description: "Created a 3JS-based web app enabling network engineers to visualize Network KPIs using VR.",
+    description: "Created a Three.js-based web app enabling network engineers to visualize Network KPIs using VR.",
     highlights: [
       "Built immersive VR experience for data visualization",
       "Enabled network engineers to interact with complex KPI data in 3D space",
-      "Collaborated with Telus to deliver real-world solution"
+      "Collaborated with Telus to deliver a real-world solution"
     ],
     icon: Headphones,
     technologies: ["Three.js", "VR", "JavaScript", "Data Visualization"],
@@ -33,7 +63,7 @@ const projects = [
   {
     title: "Wordrow",
     type: "Personal Project",
-    period: "2015-2016",
+    period: "2015–2016",
     description: "Designed and developed a Unity MVC word game with 100+ Google Play downloads.",
     highlights: [
       "Implemented MVC architecture pattern in Unity",

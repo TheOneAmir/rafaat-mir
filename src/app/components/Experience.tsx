@@ -3,48 +3,47 @@ import { Calendar, MapPin, Award } from "lucide-react";
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Independent Software Engineer",
+    company: "Self-Employed",
+    location: "Remote",
+    period: "Jul 2025 – Present",
+    highlights: [
+      "Launched AgentVim (agentvim.com): an AI-powered coding interview simulator with real-time LLM feedback, multi-language in-browser editor, and persistent interview history. Built on Supabase Edge Functions with streaming LLM responses.",
+      "Shipped Tenfold (tenfoldcards.com): a narrative roguelike web game built on TanStack Start (React 19, Vite 7) with SSR on Cloudflare Workers. Tuned game balance via automated Monte Carlo simulations over thousands of synthetic playthroughs.",
+      "Exploring an AI-powered investment screener with market sentiment analysis using LLM agents."
+    ],
+    techStack: "React, TanStack Start, TypeScript, Supabase, Cloudflare Workers, LLM APIs"
+  },
+  {
+    title: "Software Engineer, L60 → L62",
     company: "Microsoft",
     location: "Seattle, WA",
-    period: "Jul 2019 - Jun 2025",
+    period: "Jul 2019 – Jun 2025",
     highlights: [
-      "Engineered full-stack solutions to help scale Azure Cloud Supply Chain (supporting Azure's average ~37% YoY growth).",
-      "Created a web app which was used to onboard 10000+ Data Center configurations and save 1000+ hours in Supply Chain cycle times.",
-      "Collaborated on the system design and implementation of a Data Search App which saves $0.5m+ annually (and won \"CSCP Stellar Quest Award\").",
-      "Preprocessed and indexed data using Azure AI Search to minimize search latencies to milliseconds.",
-      "Created a Chat Agent with prompt engineering to enable natural language searches using Azure OpenAI APIs.",
-      "Designed and created an API Service used to request 2000+ Hardware part qualifications.",
-      "Created an API Dashboard for a service with million+ API calls/day - helping detect issues preemptively.",
-      "Created the UI for a Datacenter Tracker App, which received Honorable Mention in Microsoft's 2024 Global Hackathon."
+      "Delivered a web app to onboard 10,000+ data center configurations onto Azure engineering systems — eliminating 1,000+ hours of manual Supply Chain cycle time and ensuring downstream systems always reflect the latest parts.",
+      "Built a data center parts search tool that saved ~$500K annually and won the CSCP Stellar Quest Award: designed an Angular 16 UI with real-time filtering and millisecond latencies via Azure AI Search; created a Chat Agent using Azure OpenAI APIs for natural language queries.",
+      "Designed an API Service handling 2,000+ hardware part qualification requests — cutting days off each cycle time via poll-based schedulers; shipped with 85%+ integration test coverage.",
+      "Built an API Dashboard for a service processing 1M+ calls/day, enabling proactive issue detection before Sev incidents.",
+      "Created a Rack Deployment timeline visualizer, enabling stakeholders to pinpoint and annotate delays.",
+      "Won Honorable Mention at Microsoft's 2024 Global Hackathon for a Part Tracker App that maps parts across all deployed data centers.",
+      "Reviewed 10,000+ lines of code; set up CI/CD via YAML pipelines; patched 15+ security issues under Microsoft's Secure Future Initiative.",
+      "Mentored new hires and vendors; provided on-call support resolving 100+ live site issues within Azure SLAs."
     ],
-    techStack: "C#, Typescript, AngularJS, Kubernetes, MySQL, YAML, Azure OpenAI APIs",
+    techStack: "C#, TypeScript, Angular, Kubernetes, MySQL, YAML, Azure Service Bus, Redis, Azure OpenAI APIs",
     award: "CSCP Stellar Quest Award & 2024 Global Hackathon Honorable Mention"
   },
   {
     title: "Software Developer",
     company: "PNI Digital Media",
     location: "Vancouver, BC",
-    period: "Aug 2016 - Jun 2019",
+    period: "Aug 2016 – Jun 2019",
     highlights: [
-      "Architected and developed a multithreaded Desktop app used to fulfill DVD orders at Costco US Photo Labs.",
-      "Designed and developed core components, using multithreading to improve speed by ~8x.",
-      "Introduced server-side caching to reduce data egress by 50%+.",
-      "Led sprint planning meetings and assisted with planning a roadmap for the Software Dev Lifecycle.",
-      "Developed scalable features for Costco and Staples MVC sites with million+ users/day.",
-      "Extended server-side caching and optimized data structures to save around a second on pages with 1000+ users/day.",
-      "Identified and patched OWASP Top 10 security issues preventing security breaches."
+      "Architected a multithreaded desktop app that fulfilled DVD photo orders across all Costco US Photo Labs — delivering ~8x speed improvement via multithreading and cutting data egress by 50%+ with server-side caching.",
+      "Implemented features and resolved high-impact bugs for Costco and Staples MVC e-commerce sites serving 1M+ users/day; optimized data structures to shave ~1 second off high-traffic pages.",
+      "Built a load testing framework to simulate holiday traffic spikes, improving resilience before peak seasons.",
+      "Identified and patched OWASP Top 10 vulnerabilities across production systems, preventing potential security breaches."
     ],
-    techStack: "C#, .NET, MVC, Caching, Multithreading"
-  },
-  {
-    title: "Software Engineer",
-    company: "MDA",
-    location: "Richmond, BC",
-    period: "Jun 2015 - Jan 2016",
-    highlights: [
-      "Implemented \"editing\" capabilities on a Perl Web App used to generate airplane flight charts."
-    ],
-    techStack: "Perl, Web Development"
+    techStack: "C#, Angular, JavaScript, Redis, ElasticSearch, MySQL, Azure"
   }
 ];
 
